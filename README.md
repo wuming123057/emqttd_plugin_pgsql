@@ -86,7 +86,7 @@ Notice: This is a demo table. You could authenticate with any user table.
 CREATE TABLE mqtt_user (
   id SERIAL primary key,
   username character varying(100),
-  password character varying(100)
+  password character varying(100)，
   salt character varying(40)
 ) 
 ```
